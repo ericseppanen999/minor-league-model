@@ -15,6 +15,7 @@ def get_player_mlb_id(first_name,last_name):
     else:
         return None
 
+
 def discipline_plus(first_name,last_name):
 
     data = [calculate_oSwing_percentage(first_name,last_name),calculate_zSwing_percentage(first_name,last_name),calculate_zContact_percentage(first_name,last_name),calculate_csw_percentage(first_name,last_name)]
